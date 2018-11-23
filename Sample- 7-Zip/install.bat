@@ -1,1 +1,1 @@
-msiexec.exe 
+msiexec.exe /qbn 
