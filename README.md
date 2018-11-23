@@ -1,2 +1,3 @@
 # Software-Dispatch-Guide
-Software Dispatch Sample
+This document will show you how to pack your own software package for ASUS Control Center.
+
