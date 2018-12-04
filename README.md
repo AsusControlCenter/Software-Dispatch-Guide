@@ -6,10 +6,10 @@ ASUS Control Center provide a elastic method to remote execute your installation
 Before make your own software pool.
 You have to identify which SW deliver path is fit your software.
 
-- silent execute a command line
-- silent install .msi file
-- silent install .msu file
-- silent install .exe file
+- silent execute a command line `Path A`
+- silent install .msi file `Path B`
+- silent install .msu file `Path C`
+- silent install .exe file `Path D`
 
 ### Path A、 execute command mode
 
