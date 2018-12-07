@@ -47,7 +47,7 @@ We will provide some example in each Path.
 
 ---
 
-#### Applications
+#### Applications2
 
 #### Path A : silent execute a batch command
 
