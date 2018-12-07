@@ -41,7 +41,7 @@ We will provide some example in each Path.
 - **Path C 、** silent install .msu file
     - Sample C02 silent install msu
     
-- **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip)  
+- **Path D 、** silent install a pakckage ( if the software contains many files , we can zip them to one .zip)  
     - Sample D01 silent install UltraVNC
 
 ---
