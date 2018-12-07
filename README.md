@@ -3,12 +3,13 @@ ASUS Control Center provide various elastic methods to execute command or instal
 Through this powerful method assist you reduce a lot of onsite install **application** time.  
 (**application** itself have to support silent install command or accept unattend file)
 
-This document will show you how to pack your own software package for ASUS Control Center.  
-We suggest you can watch the related video first.
-
-
-
+## Related Online video
+ - How to upload your software to software pool? [Software Pool](https://www.youtube.com/watch?v=gIYsaWSM8jk&t=0s&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Software Pool")
+ - How to dispatch your software to one device? [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
+ - How to dispatch your software to multi devices? [Software Pool](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Centrailzed Software Dispatch")
+ 
 ## Identify the Package Path
+This document will show you how to pack your own software package for ASUS Control Center.  
 Before making your own software package.
 You have to identify which SW deliver path is fit your software.
 
