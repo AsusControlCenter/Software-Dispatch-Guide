@@ -50,7 +50,7 @@ net start wuauserv
 
 ![image](/resources/images/SampleA01.png)  
 
-===  
+___
 
 ##### `Sample A02` use command to add a test account to local user
 This sample shows how to add a test account and give initial password through command.
@@ -62,7 +62,7 @@ net user test pwd1234 /add
 ```  
 >more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")
      
----
+     
 #### Path C、 through command to install *.msi file
 installMSI.bat
 ```cmd
