@@ -28,14 +28,14 @@ Before you uploading the **Script File** & **Install file** to software pool.
 ---         
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
-- **Path A 、** silent execute a command line (Script File Only)
+- **Path A 、** silent execute a batch command (Script File Only)
 - **Path B 、** silent install .msi file
 - **Path C 、** silent install .msu file
 - **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip)  
 We will show you some sample in different Path.  
 
 ---
-#### Path A、 execute command mode
+#### Path A、 silent execute a batch command
 
 ##### `Sample A01` use command to restart a Service
 This sample shows how to write a short command to restart a windows update service (wuauserv).
@@ -60,14 +60,28 @@ This sample shows how to add a test account and give initial password through co
 ```cmd
 net user test pwd1234 /add
 ```  
->more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")
+>more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")  
+![image](/resources/images/SampleA01.png)  
+
+***
      
-     
-#### Path C、 through command to install *.msi file
-installMSI.bat
+#### Path B、 silent install .msi file
+In this path , `Script File` will write the command to **silent install* the `Install File`
+
+##### `Sample B01` silen install 7-Zip
+This sample shows how to write a short command to silent install 7-zip utility.
+`Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
+
+**Script File :**  
+**install.bat** content : 
 ```cmd
-msiexec.exe /i yourmsifile.msi /q
+msiexec.exe /i 7zip.msi /q
 ```
+
+**Install File :**  
+You can download it from 7-Zip official site and rename to 7zip.msi
+
+***
 
 #### Path D、 through command to install *.msi file
 installMSU.bat
