@@ -28,7 +28,7 @@ Before you uploading the **Script File** & **Install file** to software pool.
 ---         
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
-And we will provide some example in each Path.  
+We will provide some example in each Path.  
 
 - **Path A 、** silent execute a batch command (Script File Only)
     - Sample A01 use command to restart a Service
