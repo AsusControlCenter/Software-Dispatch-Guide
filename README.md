@@ -6,12 +6,14 @@ ASUS Control Center provide various elastic methods to remote execute your comma
 Before making your own software package.
 You have to identify which SW deliver path is fit your software.
 
-- silent execute a command line (Batch Script) .bat / .sh `Path A`
+* [Path A、 execute command mode](#Path-A)
+- silent execute a command line (Batch Script) .bat / .sh `Path A`  
 - silent execute .exe file `Path B`
 - silent install .msi file `Path C`
 - silent install .msu file `Path D`
 - silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
+## Block Elements
 ### Path A、 execute command mode
 
 RestartWindosUpdateService.bat
@@ -20,7 +22,7 @@ net stop wuauserv
 net start wuauserv
 ```
 upload it to the sowftware pool
-![Alt text](resources/test.jpg?raw=true "Path A")
+ ![Alt text](resources/test.jpg?raw=true "Path A")
 
 ### Path C、 through command to install *.msi file
 installMSI.bat
