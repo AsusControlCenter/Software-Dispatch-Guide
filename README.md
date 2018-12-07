@@ -1,5 +1,5 @@
 # Software-Dispatch-Guide
-ASUS Control Center provide various elastic methods to remote execute your command or install progress.  
+ASUS Control Center provide various elastic methods to execute command or install progress on remote managed devices.  
 Through this powerful method assist you reduce a lot of onsite install **application** time.  
 (**application** itself have to support silent install command or accept unattend file)
 
