@@ -1,5 +1,5 @@
 # Software-Dispatch-Guide
-ASUS Control Center provide various elastic methods to execute command or install progress on remote managed devices.  
+ASUS Control Center (ACC) provide various elastic methods to execute command or install progress on remote managed devices.  
 Through this powerful method assist you reduce a lot of onsite install **application** time.  
 (`Important!` the **application** itself have to support silent install command or accept unattend file)
 
@@ -11,11 +11,13 @@ Through this powerful method assist you reduce a lot of onsite install **applica
 ## Identify the Package Path
 This session will explain you how to prepare customization  software package for ASUS Control Center.  
 Before you uploading the **Script File** & **Install file** to software pool.  
-- **Script file** :  
-  It can be **.bat** (for Windows) or **.sh** (for Linux).  
-  
-  
-- **install file** (option) :
+- **Script File** :  
+  Here you can put the `command` executed on remote managed device.  
+  Or you can put the command about how the `Install File` be installed.  
+  The ACC Agent , will download form ACC Server and use the `SYSTEM` 
+  Script File can be **.bat** (for Windows) or **.sh** (for Linux).  
+    
+- **Install File** (option) :
 
 
 At the fisrt , you have to identify which software deliver path is fit your software behavior.  
