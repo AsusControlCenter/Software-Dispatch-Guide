@@ -1,7 +1,7 @@
 # Software-Dispatch-Guide
 ASUS Control Center provide various elastic methods to execute command or install progress on remote managed devices.  
 Through this powerful method assist you reduce a lot of onsite install **application** time.  
-(**application** itself have to support silent install command or accept unattend file)
+('Important' the **application** itself have to support silent install command or accept unattend file)
 
 ## Related Online video
  - How to upload your software to software pool?   [Software Pool](https://www.youtube.com/watch?v=gIYsaWSM8jk&t=0s&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Software Pool")
