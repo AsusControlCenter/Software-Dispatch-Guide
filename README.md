@@ -83,7 +83,7 @@ In this path , `Script File` will write the command to **silent install** the `I
 
 ##### `Sample B01` silent install 7-Zip
 This sample shows how to write a short command to silent install 7-zip utility.  
-`Important` in stardand **.msi** file through installer **[msiexec](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")** use paramater **/q** will install the program in quite mode. 
+`Important` in stardand **.msi** file through the installer **[msiexec.exe](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")** use paramater **/q** will install the program in quite mode. 
 
 **Script File :**  
 **install.bat** content : 
