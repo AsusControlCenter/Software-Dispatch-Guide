@@ -21,23 +21,22 @@ Before you uploading the **Script File** & **Install file** to software pool.
     The `ACC Agent` , will download the Scipt File form `ACC Server` and use the **NT AUTHORITY\SYSTEM** 
     [privileges](https://docs.microsoft.com/en-us/windows/desktop/services/localsystem-account "privileges" ) to execute it.  
     
-- **Install File** (option) :
+- **Install File** (option) :  
     `Install File` means the file you want to install on remote managed device.  
-    The file extention can be **.msi** 、**.msu** 、**.exe** 、**.Zip** (if your install file contain other libs etc. ) 
+    The file extention can be **.msi** 、**.msu** 、**.exe** 、**.Zip** (if your install file contain required libs etc.)
+    
       
 ### Step 2. Chose the Package Path
-At the fisrt , you have to identify which software deliver path is fit your software behavior.  
+At the fisrt, you have to identify which software deliver path is fit your software behavior.  
 
-* [Path A、 execute command mode](#Path-A)
-- silent execute a command line (Batch Script) .bat / .sh `Path A`  
-- silent execute .exe file `Path B`
-- silent install .msi file `Path C`
+- [Path A] silent execute a command line (Script File Only)
+- silent install .msi file `Path B`
 - silent install .msu file `Path D`
 - silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
 ## Block Elements
 #### Path A、 execute command mode
-
+#### Path A
 RestartWindosUpdateService.bat
 ```cmd
 net stop wuauserv
