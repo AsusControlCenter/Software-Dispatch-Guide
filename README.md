@@ -46,7 +46,7 @@ We will provide some example in each Path.
 
 ---
 
-#### Path A : silent execute a batch command
+## Path A : silent execute a batch command
 
 ##### `Sample A01` use command to restart a Service
 This sample shows how to write a short command to restart a windows update service (wuauserv).
@@ -78,7 +78,7 @@ net user test pwd1234 /add
 ***
 
 
-#### Path B、 silent install .msi file
+## Path B、 silent install .msi file
 In this path , `Script File` will write the command to **silent install** the `Install File`
 
 ##### `Sample B01` silen install 7-Zip
