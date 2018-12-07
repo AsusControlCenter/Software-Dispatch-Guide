@@ -46,7 +46,8 @@ This sample shows how to write a short command to restart a windows update servi
 net stop wuauserv
 net start wuauserv
 ```
->more command reference can check [here](https://www.windows-commandline.com/start-stop-service-command-line)  
+>more command reference can check [here](https://www.windows-commandline.com/start-stop-service-command-line)
+
 ![image](/resources/images/SampleA01.png)  
 
 ---  
@@ -59,8 +60,7 @@ This sample shows how to add a test account and give initial password through co
 ```cmd
 net user test pwd1234 /add
 ```  
->more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")  
-
+>more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")
      
 ---
 #### Path C、 through command to install *.msi file
