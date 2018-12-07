@@ -25,8 +25,8 @@ Before you uploading the **Script File** & **Install file** to software pool.
     `Install File` means the file you want to install on remote managed device.  
     The file extention can be **.msi** 、**.msu** 、**.exe** 、**.Zip** (if your install file contain required libs etc.)
 ---         
-### Step 2. Chose the Package Path
-At the fisrt, you have to identify which software deliver path is fit your software behavior.  
+### Step 2. Chose the correct Software Package deliver path
+Identify which software deliver path is match your software behavior.  
 - **Path A** silent execute a command line (Script File Only)
 - **Path B** silent install .msi file `Path B`
 - **Path C** silent install .msu file `Path D`
