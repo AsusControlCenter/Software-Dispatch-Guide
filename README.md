@@ -22,9 +22,9 @@ Before you uploading the **Script File** & **Install file** to software pool.
     The `ACC Agent` , will download the Scipt File form `ACC Server` and use the **NT AUTHORITY\SYSTEM** 
     [privileges](https://docs.microsoft.com/en-us/windows/desktop/services/localsystem-account "privileges" ) to execute it.  
     
-- **Setup File** (option) :  
+- **Setup File** (optional) :  
     `Setup File` means the file you want to install on remote managed device.  
-    The file extention can be **.msi** 、**.msu** 、**.exe** 、**.zip** (if your install file contain required libs etc.)
+    The file extension can be **.msi** 、**.msu** 、**.exe** 、**.zip** (if your install file contain required libs etc.)
 ---         
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
