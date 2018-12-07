@@ -26,7 +26,7 @@ Before you uploading the **Script File** & **Install file** to software pool.
     `Setup File` means the file you want to install on remote managed device.  
     The file extension can be **.msi** 、**.msu** 、**.exe** 、**.zip** (if your install file contain required libs etc.)
 ---         
-### Step 2. Chose the correct Software Package deliver path
+### Step 2. Choose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
 We will provide some example in each Path.  
 
