@@ -8,8 +8,9 @@ Through this powerful method assist you reduce a lot of onsite install **applica
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
  - How to dispatch your software to multi-devices? [Centrailzed Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centrailzed Software Dispatch")
 
-## Prepare your softwrare package
+## Prepare your softwrare package  
 This session will explain how to prepare customization software package for ASUS Control Center.  
+
 ---
 ### Step 1. Uderstatnding the difference between the _Script File_ and _Install File_
 
@@ -48,7 +49,7 @@ net start wuauserv
 ![image](/resources/images/SampleA01.png)  
 >more command reference can check [here](https://www.windows-commandline.com/start-stop-service-command-line)  
 
-
+---
 ##### `Sample A02` use command to add a test account to local user
 This sample shows how to add a test account and give initial password through command.
 
