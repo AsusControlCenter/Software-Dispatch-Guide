@@ -18,6 +18,10 @@ RestartWindosUpdateService.bat
 net stop wuauserv
 net start wuauserv
 ```
+upload it to the sowftware pool
+![Alt text](resources/test.jpg?raw=true "Path A")
+![Alt text](https://goo.gl/NciLBx "Path A")
+
 ### Path B、 through command to install *.msi file
 install.bat
 ```cmd
