@@ -31,8 +31,9 @@ Identify which software deliver path is match your software behavior.
 - **Path B 、** silent install .msi file `Path B`
 - **Path C 、** silent install .msu file `Path D`
 - **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
-
 We will show you some sample in different Path.  
+
+
 ---
 #### Path A、 execute command mode
 
