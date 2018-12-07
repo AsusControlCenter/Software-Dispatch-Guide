@@ -60,7 +60,7 @@ This sample shows how to add a test account and give initial password through co
 ```cmd
 net user test pwd1234 /add
 ```  
->more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")  
+>more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")
 ![image](/resources/images/SampleA01.png)  
 
 ***
@@ -69,7 +69,7 @@ net user test pwd1234 /add
 In this path , `Script File` will write the command to **silent install* the `Install File`
 
 ##### `Sample B01` silen install 7-Zip
-This sample shows how to write a short command to silent install 7-zip utility.
+This sample shows how to write a short command to silent install 7-zip utility.  
 `Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
 
 **Script File :**  
