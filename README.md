@@ -111,8 +111,9 @@ msiexec.exe /i googlechromestandaloneenterprise64.msi /q
 ```
 
 **Setup File :**  
-You can download it from Google  [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
-Please remember to download the .msi format  
+**
+You can download it from Chrome Browser for Enterprise [official site](https://enterprise.google.com/intl/en-us/chrome/chrome-browser/) 
+Please remember to download the standalone edition and .msi format  
 >more command reference can check [here](https://www.7-zip.org/faq.html "Reference")
 
 ![image](/resources/images/SampleB01.png)  
