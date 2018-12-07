@@ -28,18 +28,21 @@ Before you uploading the **Script File** & **Install file** to software pool.
 ---         
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
+And we will provide some example in each Path.  
+
 - **Path A 、** silent execute a batch command (Script File Only)
     - Sample A01 use command to restart a Service
     - Sample A02 use command to add a test account to local user
+    
 - **Path B 、** silent install .msi file
     - Sample B01 silen install 7-Zip
     - Sample B02 silen install Google Chrome Browser
+    
 - **Path C 、** silent install .msu file
     - Sample C02 silen install msu
+    
 - **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip)  
     - Sample D01 silent install UltraVNC
-
-We will show you some sample in different Path.  
 
 ---
 #### Path A、 silent execute a batch command
