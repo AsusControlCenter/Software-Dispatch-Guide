@@ -22,8 +22,8 @@ Before you uploading the **Script File** & **Install file** to software pool.
     The `ACC Agent` , will download the Scipt File form `ACC Server` and use the **NT AUTHORITY\SYSTEM** 
     [privileges](https://docs.microsoft.com/en-us/windows/desktop/services/localsystem-account "privileges" ) to execute it.  
     
-- **Install File** (option) :  
-    `Install File` means the file you want to install on remote managed device.  
+- **Setup File** (option) :  
+    `Setup File` means the file you want to install on remote managed device.  
     The file extention can be **.msi** 、**.msu** 、**.exe** 、**.zip** (if your install file contain required libs etc.)
 ---         
 ### Step 2. Chose the correct Software Package deliver path
@@ -91,7 +91,7 @@ This sample shows how to write a short command to silent install 7-zip utility.
 msiexec.exe /i 7zip.msi /q
 ```
 
-**Install File :**  
+**Setup File :**  
 You can download it from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
 Please remember to download the .msi format
 ***
