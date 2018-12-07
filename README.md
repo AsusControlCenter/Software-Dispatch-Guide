@@ -36,8 +36,10 @@ We will show you some sample in different Path.
 ---
 #### Path A、 execute command mode
 
-##### `sample` use command to restart a Service
-This sample shows
+##### `sample A01` use command to restart a Service
+This sample shows how to write a short command to restart a windows update service (wuauserv).
+
+**Script File : **  
 **RestartWindosUpdateService.bat**
 ```cmd
 net stop wuauserv
