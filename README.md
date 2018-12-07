@@ -61,10 +61,12 @@ This sample shows how to add a test account and give initial password through co
 net user test pwd1234 /add
 ```  
 >more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")
+
 ![image](/resources/images/SampleA01.png)  
 
 ***
-     
+
+
 #### Path B、 silent install .msi file
 In this path , `Script File` will write the command to **silent install* the `Install File`
 
