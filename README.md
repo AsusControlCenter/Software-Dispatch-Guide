@@ -10,9 +10,12 @@ Through this powerful method assist you reduce a lot of onsite install **applica
  
 ## Identify the Package Path
 This session will explain you how to prepare customization  software package for ASUS Control Center.  
-Before you uploading the **script file** & **install file** to software pool.  
-- script file :
-- install file :
+Before you uploading the **Script File** & **Install file** to software pool.  
+- **Script file** :  
+  It can be **.bat** (for Windows) or **.sh** (for Linux).  
+  
+  
+- **install file** (option) :
 
 
 At the fisrt , you have to identify which software deliver path is fit your software behavior.  
