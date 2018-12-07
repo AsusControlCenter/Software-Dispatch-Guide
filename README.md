@@ -46,8 +46,8 @@ This sample shows how to write a short command to restart a windows update servi
 net stop wuauserv
 net start wuauserv
 ```
-![image](/resources/images/SampleA01.png)  
 >more command reference can check [here](https://www.windows-commandline.com/start-stop-service-command-line)  
+![image](/resources/images/SampleA01.png)  
 
 ---  
 
