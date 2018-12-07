@@ -28,11 +28,10 @@ Before you uploading the **Script File** & **Install file** to software pool.
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
 - **Path A 、** silent execute a command line (Script File Only)
-- **Path B 、** silent install .msi file `Path B`
-- **Path C 、** silent install .msu file `Path D`
-- **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
+- **Path B 、** silent install .msi file
+- **Path C 、** silent install .msu file
+- **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip)  
 We will show you some sample in different Path.  
-
 
 ---
 #### Path A、 execute command mode
@@ -57,7 +56,7 @@ This sample shows how to add a test account and give initial password through co
 ```cmd
 net user test pwd1234 /add
 ```  
-[Reference](https://www.windows-commandline.com/add-user-from-command-line "Reference")  
+>More command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")  
 
 ---
 #### Path C、 through command to install *.msi file
