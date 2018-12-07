@@ -35,11 +35,11 @@ We will provide some example in each Path.
     - Sample A02 use command to add a test account to local user
     
 - **Path B 、** silent install .msi file
-    - Sample B01 silen install 7-Zip
-    - Sample B02 silen install Google Chrome Browser
+    - Sample B01 silent install 7-Zip
+    - Sample B02 silent install Google Chrome Browser
     
 - **Path C 、** silent install .msu file
-    - Sample C02 silen install msu
+    - Sample C02 silent install msu
     
 - **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip)  
     - Sample D01 silent install UltraVNC
@@ -81,7 +81,7 @@ net user test pwd1234 /add
 ## Path B、 silent install .msi file
 In this path , `Script File` will write the command to **silent install** the `Install File`
 
-##### `Sample B01` silen install 7-Zip
+##### `Sample B01` silent install 7-Zip
 This sample shows how to write a short command to silent install 7-zip utility.  
 `Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
 
@@ -101,7 +101,7 @@ Please remember to download the .msi format
 
 ***
 
-##### `Sample B02` silen Google Chrome Browser
+##### `Sample B02` silent Google Chrome Browser
 This sample shows how to write a short command to silent install Google Chrome Browser.  
 `Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
 
