@@ -30,7 +30,7 @@ Before you uploading the **Script File** & **Install file** to software pool.
 Identify which software deliver path is match your software behavior.  
 We will provide some example in each Path.  
 
-- **Path A 、** silent execute a batch command (Script File Only)
+- [Path A : silent execute a batch command](#PathA)
     - Sample A01 use command to restart a Service
     - Sample A02 use command to add a test account to local user
     
@@ -45,7 +45,7 @@ We will provide some example in each Path.
     - Sample D01 silent install UltraVNC
 
 ---
-#### Path A、 silent execute a batch command
+#### Path A : silent execute a batch command
 
 ##### `Sample A01` use command to restart a Service
 This sample shows how to write a short command to restart a windows update service (wuauserv).
