@@ -92,8 +92,8 @@ msiexec.exe /i 7zip.msi /q
 ```
 
 **Install File :**  
-You can download it from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi
-`Remember` please download the .msi format
+You can download it from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
+Please remember to download the .msi format
 ***
 
 #### Path D、 through command to install *.msi file
