@@ -73,7 +73,7 @@ net user test pwd1234 /add
 ```  
 >more command reference can check [here](https://www.windows-commandline.com/add-user-from-command-line "Reference")
 
-![image](/resources/images/SampleA01.png)  
+![image](/resources/images/SampleA02.png)  
 
 ***
 
