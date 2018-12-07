@@ -12,7 +12,7 @@ Through this powerful method assist you reduce a lot of onsite install **applica
 This session will explain how to prepare customization software package for ASUS Control Center.  
 
 ---
-### Step 1. Uderstatnding the difference between the _Script File_ and _Install File_
+### Step 1. Understanding the difference between the _Script File_ and _Setup File_
 
 Before you uploading the **Script File** & **Install file** to software pool.  
 - **Script File** :  
