@@ -7,9 +7,12 @@ Through this powerful method assist you reduce a lot of onsite install **applica
  - How to upload your software to software pool?   [Software Pool](https://www.youtube.com/watch?v=gIYsaWSM8jk&t=0s&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Software Pool")
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
  - How to dispatch your software to multi-devices? [Centrailzed Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centrailzed Software Dispatch")
- 
-## Defination of the _Script File_ and _Install File_
+
+## Prepare your softwrare package
 This session will explain how to prepare customization software package for ASUS Control Center.  
+
+### Defination of the _Script File_ and _Install File_
+
 Before you uploading the **Script File** & **Install file** to software pool.  
 - **Script File** :  
   Script File can be **.bat** (for Windows) or **.sh** (for Linux).  
@@ -23,7 +26,7 @@ Before you uploading the **Script File** & **Install file** to software pool.
   Install File means the file you want to install on remote managed devise.  
   The file can be **.msi** 、**.msu** 、**.exe** 、**.Zip**  
   
-## Identify the Package Path
+### Identify the Package Path
 At the fisrt , you have to identify which software deliver path is fit your software behavior.  
 
 * [Path A、 execute command mode](#Path-A)
@@ -34,7 +37,7 @@ At the fisrt , you have to identify which software deliver path is fit your soft
 - silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
 ## Block Elements
-### Path A、 execute command mode
+#### Path A、 execute command mode
 
 RestartWindosUpdateService.bat
 ```cmd
@@ -44,19 +47,19 @@ net start wuauserv
 upload it to the sowftware pool
  ![Alt text](resources/test.jpg?raw=true "Path A")
 
-### Path C、 through command to install *.msi file
+#### Path C、 through command to install *.msi file
 installMSI.bat
 ```cmd
 msiexec.exe /i yourmsifile.msi /q
 ```
 
-### Path D、 through command to install *.msi file
+#### Path D、 through command to install *.msi file
 installMSU.bat
 ```cmd
 wusa.exe yourmsifile.msu
 ```
 
-## Basic Software dispatch flow.
+### Basic Software dispatch flow.
 1. Upload the package to the Software pool
 2. Back to the ClientInfor OverView , select the target device.
 3. Enter Softeware function 
