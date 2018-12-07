@@ -122,7 +122,7 @@ Please remember to download the standalone edition and .msi format
 ***
 
 
-#### Path D、 through command to install *.msi file
+#### Path C、 through command to install .msu file
 installMSU.bat
 ```cmd
 wusa.exe yourmsifile.msu
