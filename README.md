@@ -50,7 +50,7 @@ net start wuauserv
 
 ![image](/resources/images/SampleA01.png)  
 
-___
+***
 
 ##### `Sample A02` use command to add a test account to local user
 This sample shows how to add a test account and give initial password through command.
