@@ -27,20 +27,26 @@ Before you uploading the **Script File** & **Install file** to software pool.
 ---         
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
-- **Path A** silent execute a command line (Script File Only)
-- **Path B** silent install .msi file `Path B`
-- **Path C** silent install .msu file `Path D`
-- **Path D** silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
+- **Path A 、** silent execute a command line (Script File Only)
+- **Path B 、** silent install .msi file `Path B`
+- **Path C 、** silent install .msu file `Path D`
+- **Path D 、** silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
-
+We will show you some sample in different Path.  
+---
 #### Path A、 execute command mode
-RestartWindosUpdateService.bat
+
+##### use command to restart a Service
+**Script File : 
+**RestartWindosUpdateService.bat**
 ```cmd
 net stop wuauserv
 net start wuauserv
 ```
-upload it to the sowftware pool
- ![Alt text](resources/test.jpg?raw=true "Path A")
+##### add account to local user
+```cmd
+
+```
 
 #### Path C、 through command to install *.msi file
 installMSI.bat
