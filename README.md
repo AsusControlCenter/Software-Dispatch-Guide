@@ -83,7 +83,7 @@ In this path , `Script File` will write the command to **silent install** the `I
 
 ##### `Sample B01` silent install 7-Zip
 This sample shows how to write a short command to silent install 7-zip utility.  
-`Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
+`Important` in stardand **.msi** file through installer **[msiexec](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")** use paramater **/q** will install the program in quite mode. 
 
 **Script File :**  
 **install.bat** content : 
@@ -98,6 +98,7 @@ Please remember to download the .msi format
 >more command reference can check 
 >7-Zip Silent install command [7-Zip Silent Install](https://www.7-zip.org/faq.html "Reference")  
 >MS msi installer command [msiexec](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")  
+
 ![image](/resources/images/SampleB01.png)  
 
 ***
@@ -116,7 +117,8 @@ msiexec.exe /i googlechromestandaloneenterprise64.msi /q
 **googlechromestandaloneenterprise64.msi**  
 You can download it from Chrome Browser for Enterprise [official site](https://enterprise.google.com/intl/en-us/chrome/chrome-browser/) 
 Please remember to download the standalone edition and .msi format  
->more command reference can check [here](https://www.7-zip.org/faq.html "Reference")
+>more command reference can check
+>MS msi installer command [msiexec](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")  
 
 ![image](/resources/images/SampleB02.png)  
 
