@@ -9,8 +9,8 @@ Through this powerful method assist you reduce a lot of onsite install **applica
  - How to dispatch your software to multi-devices? [Centrailzed Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centrailzed Software Dispatch")
  
 ## Identify the Package Path
-This session will show you how to prepare your own software package for ASUS Control Center.  
-Before uploading the **script file** & **install file** to software pool.  
+This session will explain you how to prepare customization  software package for ASUS Control Center.  
+Before you uploading the **script file** & **install file** to software pool.  
 - script file :
 - install file :
 
