@@ -8,20 +8,22 @@ Through this powerful method assist you reduce a lot of onsite install **applica
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
  - How to dispatch your software to multi-devices? [Centrailzed Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centrailzed Software Dispatch")
  
-## Identify the Package Path
+## Defination of the _Script File_ and _Install File_
 This session will explain how to prepare customization software package for ASUS Control Center.  
 Before you uploading the **Script File** & **Install file** to software pool.  
 - **Script File** :  
+  Script File can be **.bat** (for Windows) or **.sh** (for Linux).  
   Here you can put the `command` executed on remote managed device.  
-  Or you can put the command about how the `Install File` be installed.  
+  Or you can put the command about how the **Install File** be installed.  
   The `ACC Agent` , will download the Scipt File form `ACC Server` and use the **NT AUTHORITY\SYSTEM** 
   [privileges](https://docs.microsoft.com/en-us/windows/desktop/services/localsystem-account "privileges" ) 
-  to execute it.  
-  Script File can be **.bat** (for Windows) or **.sh** (for Linux).  
+  to execute it.    
     
 - **Install File** (option) :
-
-
+  Install File means the file you want to install on remote managed devise.  
+  The file can be **.msi** 、**.msu** 、**.exe** 、**.Zip**  
+  
+## Identify the Package Path
 At the fisrt , you have to identify which software deliver path is fit your software behavior.  
 
 * [Path A、 execute command mode](#Path-A)
