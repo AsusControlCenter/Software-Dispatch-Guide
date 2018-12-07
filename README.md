@@ -93,7 +93,7 @@ msiexec.exe /i 7zip.msi /q
 
 **Setup File :**  
 **7zip.msi**  
-You can download it from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
+You can download latest version from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
 Please remember to download the .msi format  
 >more command reference can check 
 >7-Zip Silent install command [7-Zip Silent Install](https://www.7-zip.org/faq.html "Reference")  
@@ -115,7 +115,7 @@ msiexec.exe /i googlechromestandaloneenterprise64.msi /q
 
 **Setup File :**  
 **googlechromestandaloneenterprise64.msi**  
-You can download it from Chrome Browser for Enterprise [official site](https://enterprise.google.com/intl/en-us/chrome/chrome-browser/) 
+You can download latest version from Chrome Browser for Enterprise [official site](https://enterprise.google.com/intl/en-us/chrome/chrome-browser/)  
 Please remember to download the standalone edition and .msi format  
 >more command reference can check
 >MS msi installer command [msiexec](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")  
