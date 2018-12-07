@@ -1,9 +1,9 @@
 # Software-Dispatch-Guide
 ASUS Control Center provide various elastic methods to remote execute your command or install progress.
+
 Through this powerful method assist you reduce a lot of onsite install **application** time.
 
-
-(Application have to support silent install command or accept unatend file.)
+(**application** itself have to support silent install command or accept unattend file)
 
 This document will show you how to pack your own software package for ASUS Control Center.
 We suggest you can watch the related video first.
