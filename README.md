@@ -28,13 +28,12 @@ Before you uploading the **Script File** & **Install file** to software pool.
       
 ### Step 2. Chose the Package Path
 At the fisrt, you have to identify which software deliver path is fit your software behavior.  
+- **Path A** silent execute a command line (Script File Only)
+- **Path B** silent install .msi file `Path B`
+- **Path C** silent install .msu file `Path D`
+- **Path D** silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
-- silent execute a command line (Script File Only)
-- silent install .msi file `Path B`
-- silent install .msu file `Path D`
-- silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
-## Block Elements
 #### Path A、 execute command mode
 RestartWindosUpdateService.bat
 ```cmd
