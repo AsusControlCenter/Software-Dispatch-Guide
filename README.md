@@ -95,8 +95,9 @@ msiexec.exe /i 7zip.msi /q
 **7zip.msi**  
 You can download it from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
 Please remember to download the .msi format  
->more command reference can check [here](https://www.7-zip.org/faq.html "Reference")
-
+>more command reference can check 
+>7-Zip Silent install command [7-Zip Silent Install](https://www.7-zip.org/faq.html "Reference")  
+>MS msi installer command [msiexec](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")  
 ![image](/resources/images/SampleB01.png)  
 
 ***
