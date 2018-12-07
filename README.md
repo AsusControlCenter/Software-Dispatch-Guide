@@ -11,7 +11,7 @@ Through this powerful method assist you reduce a lot of onsite install **applica
 ## Prepare your softwrare package
 This session will explain how to prepare customization software package for ASUS Control Center.  
 
-### Uderstatnding the difference between the _Script File_ and _Install File_
+### Step 1. Uderstatnding the difference between the _Script File_ and _Install File_
 
 Before you uploading the **Script File** & **Install file** to software pool.  
 - **Script File** :  
@@ -26,7 +26,7 @@ Before you uploading the **Script File** & **Install file** to software pool.
   Install File means the file you want to install on remote managed devise.  
   The file can be **.msi** 、**.msu** 、**.exe** 、**.Zip**  
   
-### Chose the Package Path
+### Step 2. Chose the Package Path
 At the fisrt , you have to identify which software deliver path is fit your software behavior.  
 
 * [Path A、 execute command mode](#Path-A)
@@ -58,6 +58,10 @@ installMSU.bat
 ```cmd
 wusa.exe yourmsifile.msu
 ```
+
+### Step 3. Upload to the software pool
+
+### Step 4. Test it on your develop maching
 
 ### Basic Software dispatch flow.
 1. Upload the package to the Software pool
