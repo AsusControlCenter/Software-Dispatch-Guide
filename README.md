@@ -79,7 +79,7 @@ net user test pwd1234 /add
 
 
 #### Path B、 silent install .msi file
-In this path , `Script File` will write the command to **silent install* the `Install File`
+In this path , `Script File` will write the command to **silent install** the `Install File`
 
 ##### `Sample B01` silen install 7-Zip
 This sample shows how to write a short command to silent install 7-zip utility.  
@@ -92,8 +92,8 @@ msiexec.exe /i 7zip.msi /q
 ```
 
 **Install File :**  
-You can download it from 7-Zip official site and rename to 7zip.msi
-
+You can download it from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi
+`Remember` please download the .msi format
 ***
 
 #### Path D、 through command to install *.msi file
