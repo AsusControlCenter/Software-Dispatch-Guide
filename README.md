@@ -2,14 +2,15 @@
 This document will show you how to pack your own software package for ASUS Control Center.
 
 ## Identify the Package Path
-ASUS Control Center provide a elastic method to remote execute your installation progress.
-Before make your own software pool.
+ASUS Control Center provide various elastic methods to remote execute your command or install progress.
+Before making your own software package.
 You have to identify which SW deliver path is fit your software.
 
-- silent execute a command line `Path A`
-- silent install .msi file `Path B`
-- silent install .msu file `Path C`
-- silent install .exe file `Path D`
+- silent execute a command line (Batch Script) .bat / .sh `Path A`
+- silent execute .exe file `Path B`
+- silent install .msi file `Path C`
+- silent install .msu file `Path D`
+- silent install a pakcage ( if the sw containes many files we can zip them to one .zip) `Path E`
 
 ### Path A、 execute command mode
 
@@ -20,12 +21,17 @@ net start wuauserv
 ```
 upload it to the sowftware pool
 ![Alt text](resources/test.jpg?raw=true "Path A")
-![Alt text](https://goo.gl/NciLBx "Path A")
 
-### Path B、 through command to install *.msi file
-install.bat
+### Path C、 through command to install *.msi file
+installMSI.bat
 ```cmd
-msiexec.exe 
+msiexec.exe /i yourmsifile.msi /q
+```
+
+### Path D、 through command to install *.msi file
+installMSU.bat
+```cmd
+wusa.exe yourmsifile.msu
 ```
 
 ## Basic Software dispatch flow.
