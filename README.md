@@ -1,4 +1,4 @@
-# Software-Dispatch-Guide
+# Software Dispatch Guide
 ASUS Control Center (ACC) provide various elastic methods to execute command or install progress on remote managed devices.  
 Through this powerful method assist you reduce a lot of onsite install **application** time.  
 (`Important!` the **application** itself have to support silent install command or accept unattend file)
@@ -50,7 +50,7 @@ net start wuauserv
 
 ![image](/resources/images/SampleA01.png)  
 
----  
+===  
 
 ##### `Sample A02` use command to add a test account to local user
 This sample shows how to add a test account and give initial password through command.
