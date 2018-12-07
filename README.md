@@ -100,6 +100,26 @@ Please remember to download the .msi format
 
 ***
 
+##### `Sample B02` silen Google Chrome Browser
+This sample shows how to write a short command to silent install Google Chrome Browser.  
+`Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
+
+**Script File :**  
+**install.bat** content : 
+```cmd
+msiexec.exe /i googlechromestandaloneenterprise64.msi /q
+```
+
+**Setup File :**  
+You can download it from Google  [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
+Please remember to download the .msi format  
+>more command reference can check [here](https://www.7-zip.org/faq.html "Reference")
+
+![image](/resources/images/SampleB01.png)  
+
+***
+
+
 #### Path D、 through command to install *.msi file
 installMSU.bat
 ```cmd
