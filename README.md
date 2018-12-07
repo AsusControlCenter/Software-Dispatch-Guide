@@ -15,12 +15,12 @@ This session will explain how to prepare customization software package for ASUS
 
 Before you uploading the **Script File** & **Install file** to software pool.  
 - **Script File** :  
-  Script File can be **.bat** (for Windows) or **.sh** (for Linux).  
-  Here you can put the `command` executed on remote managed device.  
-  Or you can put the command about how the **Install File** be installed.  
-  The `ACC Agent` , will download the Scipt File form `ACC Server` and use the **NT AUTHORITY\SYSTEM** 
-  [privileges](https://docs.microsoft.com/en-us/windows/desktop/services/localsystem-account "privileges" ) 
-  to execute it.    
+    Script File can be **.bat** (for Windows) or **.sh** (for Linux).  
+    Here you can put the `command` executed on remote managed device.  
+    Or you can put the command about how the **Install File** be installed.  
+    The `ACC Agent` , will download the Scipt File form `ACC Server` and use the **NT AUTHORITY\SYSTEM** 
+    [privileges](https://docs.microsoft.com/en-us/windows/desktop/services/localsystem-account "privileges" ) 
+    to execute it.    
     
 - **Install File** (option) :
   Install File means the file you want to install on remote managed devise.  
