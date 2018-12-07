@@ -23,7 +23,7 @@ Before you uploading the **Script File** & **Install file** to software pool.
     
 - **Install File** (option) :  
     `Install File` means the file you want to install on remote managed device.  
-    The file extention can be **.msi** 、**.msu** 、**.exe** 、**.Zip** (if your install file contain required libs etc.)
+    The file extention can be **.msi** 、**.msu** 、**.exe** 、**.zip** (if your install file contain required libs etc.)
 ---         
 ### Step 2. Chose the correct Software Package deliver path
 Identify which software deliver path is match your software behavior.  
@@ -36,13 +36,15 @@ We will show you some sample in different Path.
 ---
 #### Path A、 execute command mode
 
-##### use command to restart a Service
-**Script File : 
+##### `sample` use command to restart a Service
+This sample shows
 **RestartWindosUpdateService.bat**
 ```cmd
 net stop wuauserv
 net start wuauserv
 ```
+[Reference](https://www.windows-commandline.com/start-stop-service-command-line "Reference") 
+
 ##### add account to local user
 ```cmd
 
