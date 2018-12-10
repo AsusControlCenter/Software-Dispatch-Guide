@@ -166,7 +166,7 @@ UltraVNC_1_2_23_X86_Setup.exe /silent /loadinf="ultravnc.ini"
 ```
 
 - **Setup File :**  
-Zip the **UltraVNC_1_2_23_X86_Setup.exe**  , **ultravnc.ini** to SetupSource.zip   
+Zip the **UltraVNC_1_2_23_X86_Setup.exe**  , **ultravnc.ini** to **SetupSource.zip**   
 The name of .zip file is up to you.  
 Here we use SetupSource.zip be the sample.
 
