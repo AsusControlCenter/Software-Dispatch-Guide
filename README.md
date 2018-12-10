@@ -79,7 +79,7 @@ net user test pwd1234 /add
 
 
 ## Path B、 silent install .msi file
-In this path , `Script File` will write the command to **silent install** the `Install File`
+In this path , `Script File` will write the **msiexec.exe** command to **silent install** the `Setup File`
 
 ##### `Sample B01` silent install 7-Zip
 This sample shows how to write a short command to silent install 7-zip utility.  
@@ -125,11 +125,21 @@ Please remember to download the standalone edition and .msi format
 ***
 
 
-#### Path C、 through command to install .msu file
-installMSU.bat
+#### Path C、 through command to install .msu file  
+In this path , `Script File` will write the **wusa.exe** command to **silent install** the `Setup File`
+
+##### `Sample C01` silent install .msu file
+This sample shows how to write a short command to silent install .msu file  
+`Important` in stardand **.msi** file through the installer **[wusa.exe](https://support.microsoft.com/en-us/help/934307/description-of-the-windows-update-standalone-installer-in-windows)** use paramater **/q** will install the program in quite mode. 
+
+**Script File :**  
+**installMSU.bat** content : 
 ```cmd
-wusa.exe yourmsifile.msu
+wusa.exe /q yourmsufile.msu
 ```
+**Setup File :**  
+**yourmsufile.msu**  
+
 
 ### Step 3. Upload to the software pool
 
