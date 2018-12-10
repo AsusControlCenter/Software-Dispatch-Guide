@@ -147,7 +147,7 @@ wusa.exe /q yourmsu.msu
 
 ***
 
-#### Path Path D 、** silent install a package ( if the software contains many files , we can zip them to one .zip) 
+#### Path Path D 、 silent install a package ( if the software contains many files , we can zip them to one .zip) 
 Sometimes your setup file will not just a .exe or .msi file.  
 It may contains libraries like .DLLs or config file .ini  
 In this scenario we can pack them into one **.Zip** file.
