@@ -173,7 +173,7 @@ Here we use SetupSource.zip be the sample.
 >more command reference can check
 >UltraVNC installer command [UltraVnc Installation](http://www.uvnc.com/install/installation.html#automate)  
 
-![image](/resources/images/SampleC01.png)  
+![image](/resources/images/SampleD01.png)  
 
 ***
 
