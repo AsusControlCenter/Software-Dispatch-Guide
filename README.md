@@ -177,11 +177,10 @@ Here we use SetupSource.zip be the sample.
 
 ***
 
-
 ### Step 3. Upload to the software pool
  - How to upload your software to software pool?   [Software Pool](https://www.youtube.com/watch?v=gIYsaWSM8jk&t=0s&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Software Pool")  
  
-### Step 4. Test it on your develop maching
- - How to upload your software to software pool?   [Software Pool](https://www.youtube.com/watch?v=gIYsaWSM8jk&t=0s&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Software Pool")
+### Step 4. Test it on your develop maching & Dispatch to other managed devices
+We recommend you verify these procedures in your testing machine before you dispatch it to other managed devices.  
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
  - How to dispatch your software to multi-devices? [Centralized Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centralized Software Dispatch")
