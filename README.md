@@ -147,6 +147,37 @@ wusa.exe /q yourmsu.msu
 
 ***
 
+#### Path Path D 、** silent install a package ( if the software contains many files , we can zip them to one .zip) 
+Sometimes your setup file will not just a .exe or .msi file.  
+It may contains libraries like .DLLs or config file .ini  
+In this scenario we can pack them into one **.Zip** file.
+In this path , `Script File` will write the command how to **silent install** the `Setup File`  
+`Important` ACC Agent will zutomatically unzip the `Setup File` pack in the same directory as `Script File`  
+
+##### `Sample D01` silent install UltraVNC 
+This sample shows how to write a command about silent install UltraVNC.  
+Due to UltraVNC support load configuration file from external, so our demostration is  
+to pack the ultravnc.exe and ultravnc.ini to a zip file to be Setup File.
+
+- **Script File :**  
+**install.bat** content : 
+```cmd
+UltraVNC_1_2_23_X86_Setup.exe /silent /loadinf="ultravnc.ini"
+```
+
+- **Setup File :**  
+Zip the **UltraVNC_1_2_23_X86_Setup.exe**  , **ultravnc.ini** to SetupSource.zip   
+The name of .zip file is up to you.  
+Here we use SetupSource.zip be the sample.
+
+>more command reference can check
+>UltraVNC installer command [UltraVnc Installation](http://www.uvnc.com/install/installation.html#automate)  
+
+![image](/resources/images/SampleC01.png)  
+
+***
+
+
 ### Step 3. Upload to the software pool
 
 ### Step 4. Test it on your develop maching
