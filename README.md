@@ -135,7 +135,7 @@ This sample shows how to write a short command to silent install .msu file
 **Script File :**  
 **installMSU.bat** content : 
 ```cmd
-wusa.exe /q yourmsufile.msu
+wusa.exe /q yourmsu.msu
 ```
 **Setup File :**  
 **yourmsu.msu**  
