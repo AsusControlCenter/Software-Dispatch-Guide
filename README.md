@@ -49,7 +49,7 @@ We will provide some example in each Path.
 ## Path A : silent execute a batch command
 
 ##### `Sample A01` use command to restart a Service
-This sample shows how to write a short command to restart a windows update service (wuauserv).
+This sample shows how to write a short command about restart a windows update service (wuauserv).
 
 - **Script File :**  
 **RestartWindosUpdateService.bat** content : 
@@ -79,7 +79,7 @@ net user test pwd1234 /add
 
 
 ## Path B、 silent install .msi file
-In this path , `Script File` will write the **msiexec.exe** command to **silent install** the `Setup File`
+In this path , `Script File` will write the **msiexec.exe** command about **silent install** the `Setup File`
 
 ##### `Sample B01` silent install 7-Zip
 This sample shows how to write a short command to silent install 7-zip utility.  
@@ -104,7 +104,7 @@ Please remember to download the .msi format
 ***
 
 ##### `Sample B02` silent Google Chrome Browser
-This sample shows how to write a short command to silent install Google Chrome Browser.  
+This sample shows how to write a short command about silent install Google Chrome Browser.  
 `Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
 
 - **Script File :**  
@@ -126,7 +126,7 @@ Please remember to download the standalone edition and .msi format
 
 
 #### Path C、 through command to install .msu file  
-In this path , `Script File` will write the **wusa.exe** command to **silent install** the `Setup File`
+In this path , `Script File` will write the **wusa.exe** command about **silent install** the `Setup File`
 
 ##### `Sample C01` silent install .msu file
 This sample shows how to write a short command to silent install .msu file  
