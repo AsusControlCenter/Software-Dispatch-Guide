@@ -51,7 +51,7 @@ We will provide some example in each Path.
 ##### `Sample A01` use command to restart a Service
 This sample shows how to write a short command to restart a windows update service (wuauserv).
 
-**Script File :**  
+- **Script File :**  
 **RestartWindosUpdateService.bat** content : 
 ```cmd
 net stop wuauserv
@@ -66,7 +66,7 @@ net start wuauserv
 ##### `Sample A02` use command to add a test account to local user
 This sample shows how to add a test account and give initial password through command.
 
-**Script File :**  
+- **Script File :**  
 **AddTestUser.bat** content : 
 ```cmd
 net user test pwd1234 /add
@@ -85,13 +85,13 @@ In this path , `Script File` will write the **msiexec.exe** command to **silent 
 This sample shows how to write a short command to silent install 7-zip utility.  
 `Important` in stardand **.msi** file through the installer **[msiexec.exe](https://docs.microsoft.com/en-us/windows/desktop/Msi/command-line-options "Reference")** use paramater **/q** will install the program in quite mode. 
 
-**Script File :**  
+- **Script File :**  
 **install.bat** content : 
 ```cmd
 msiexec.exe /i 7zip.msi /q
 ```
 
-**Setup File :**  
+- **Setup File :**  
 **7zip.msi**  
 You can download latest version from 7-Zip [official site](https://www.7-zip.org/download.html) and rename to 7zip.msi  
 Please remember to download the .msi format  
@@ -107,13 +107,13 @@ Please remember to download the .msi format
 This sample shows how to write a short command to silent install Google Chrome Browser.  
 `Important` in stardand **.msi** file use paramater **/q** will install the program in quite mode. 
 
-**Script File :**  
+- **Script File :**  
 **install.bat** content : 
 ```cmd
 msiexec.exe /i googlechromestandaloneenterprise64.msi /q
 ```
 
-**Setup File :**  
+- **Setup File :**  
 **googlechromestandaloneenterprise64.msi**  
 You can download latest version from Chrome Browser for Enterprise [official site](https://enterprise.google.com/intl/en-us/chrome/chrome-browser/)  
 Please remember to download the standalone edition and .msi format  
@@ -132,12 +132,13 @@ In this path , `Script File` will write the **wusa.exe** command to **silent ins
 This sample shows how to write a short command to silent install .msu file  
 `Important` in stardand **.msi** file through the installer **[wusa.exe](https://support.microsoft.com/en-us/help/934307/description-of-the-windows-update-standalone-installer-in-windows)** use paramater **/q** will install the program in quite mode. 
 
-**Script File :**  
+- **Script File :**  
 **installMSU.bat** content : 
 ```cmd
 wusa.exe /q yourmsu.msu
 ```
-**Setup File :**  
+
+- **Setup File :**  
 **yourmsu.msu**  
 
 ![image](/resources/images/SampleC01.png)  
@@ -147,8 +148,3 @@ wusa.exe /q yourmsu.msu
 ### Step 3. Upload to the software pool
 
 ### Step 4. Test it on your develop maching
-
-### Basic Software dispatch flow.
-1. Upload the package to the Software pool
-2. Back to the ClientInfor OverView , select the target device.
-3. Enter Softeware function 
