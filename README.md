@@ -130,7 +130,7 @@ In this path , `Script File` will write the **wusa.exe** command to **silent ins
 
 ##### `Sample C01` silent install .msu file
 This sample shows how to write a short command to silent install .msu file  
-`Important` in stardand **.msi** file through the installer **[wusa.exe](https://support.microsoft.com/en-us/help/934307/description-of-the-windows-update-standalone-installer-in-windows)** use paramater **/q** will install the program in quite mode. 
+`Important` in stardand **.msu** file through the installer **[wusa.exe](https://support.microsoft.com/en-us/help/934307/description-of-the-windows-update-standalone-installer-in-windows)** use paramater **/q** will install the program in quite mode. 
 
 - **Script File :**  
 **installMSU.bat** content : 
@@ -140,6 +140,8 @@ wusa.exe /q yourmsu.msu
 
 - **Setup File :**  
 **yourmsu.msu**  
+>more command reference can check
+>MS msu installer command [wusa.exe](https://support.microsoft.com/en-us/help/934307/description-of-the-windows-update-standalone-installer-in-windows)  
 
 ![image](/resources/images/SampleC01.png)  
 
