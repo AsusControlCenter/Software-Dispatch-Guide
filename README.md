@@ -138,8 +138,11 @@ This sample shows how to write a short command to silent install .msu file
 wusa.exe /q yourmsufile.msu
 ```
 **Setup File :**  
-**yourmsufile.msu**  
+**yourmsu.msu**  
 
+![image](/resources/images/SampleC01.png)  
+
+***
 
 ### Step 3. Upload to the software pool
 
