@@ -1,1 +1,1 @@
-net user test pwd1234 /add
+net user test !Pwd1234 /add
