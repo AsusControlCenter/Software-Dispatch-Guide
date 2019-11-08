@@ -110,7 +110,7 @@ This sample shows how to write a short command about silent install Google Chrom
 - **Script File :**  
 **install.bat** content : 
 ```cmd
-msiexec.exe /i googlechromestandaloneenterprise64.msi /q
+ChromeStandaloneSetup64.exe /silent /install
 ```
 
 - **Setup File :**  
