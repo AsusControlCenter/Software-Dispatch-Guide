@@ -5,8 +5,8 @@ Through this powerful method assist you reduce a lot of onsite install **applica
 
 ## Related Online training video
  - How to upload your software to software pool?   [Software Pool](https://youtu.be/g1fAYhxkO2g?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg- "Software Pool")
- - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/I3KEUH6dQWY?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg- "Software Dispatch")
- - How to dispatch your software to multi-devices? [Centralized Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centralized Software Dispatch")
+ - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/LTAaqDaWU7A?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg-&t=193 "Software Dispatch")
+ - How to dispatch your software to multi-devices? [Centralized Software Dispatch](https://youtu.be/I3KEUH6dQWY?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg- "Centralized Software Dispatch")
 
 ## Prepare your software package  
 This session will explain how to prepare customization software package for ASUS Control Center.  
