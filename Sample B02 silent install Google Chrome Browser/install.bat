@@ -1,1 +1,1 @@
-msiexec.exe /i googlechromestandaloneenterprise64.msi /q
+ChromeStandaloneSetup64.exe /silent /install
