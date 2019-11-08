@@ -54,7 +54,6 @@ This sample shows how to write a short command about restart a windows update se
 - **Script File :**  
 **RestartWindosUpdateService.bat** content : 
 ```cmd
-@echo off
 net stop wuauserv >nul 2>nul
 net start wuauserv >nul 2>nul
 ```
