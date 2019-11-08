@@ -4,7 +4,7 @@ Through this powerful method assist you reduce a lot of onsite install **applica
 (`Important!` the **application** itself have to support silent install command or accept unattend file)
 
 ## Related Online training video
- - How to upload your software to software pool?   [Software Pool](https://www.youtube.com/watch?v=gIYsaWSM8jk&t=0s&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Software Pool")
+ - How to upload your software to software pool?   [Software Pool](https://youtu.be/g1fAYhxkO2g?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg- "Software Pool")
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
  - How to dispatch your software to multi-devices? [Centralized Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centralized Software Dispatch")
 
