@@ -5,9 +5,11 @@ Through this powerful method assist you reduce a lot of onsite install **applica
 
 ## Related Online training video
  - How to upload your software to software pool?   [Software Pool](https://youtu.be/g1fAYhxkO2g?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg- "Software Pool")
+ {%youtube g1fAYhxkO2g %}
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/LTAaqDaWU7A?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg-&t=193 "Software Dispatch")
+ {%youtube LTAaqDaWU7A %}
  - How to dispatch your software to multi-devices? [Centralized Software Dispatch](https://youtu.be/I3KEUH6dQWY?list=PLeHX9GnImfHnUKsUZ_iVtGiCg8DvEZIg- "Centralized Software Dispatch")
-
+ {%youtube I3KEUH6dQWY %}
 ## Prepare your software package  
 This session will explain how to prepare customization software package for ASUS Control Center.  
 
@@ -184,3 +186,7 @@ Here we use SetupSource.zip be the sample.
 We recommend you verify these procedures in your testing machine before you dispatch it to other managed devices.  
  - How to dispatch your software to one device?    [Software Dispatch](https://youtu.be/qba_tdvPF8E?list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&t=219 "Software Dispatch")
  - How to dispatch your software to multi-devices? [Centralized Software Dispatch](https://www.youtube.com/watch?v=uBptddU84T4&list=PLI1j8qlptDvIqajLOS9OveggyTcWLDJ3i&index=28 "Centralized Software Dispatch")
+
+---
+###### tags: `GitHub` `tutorials`
+---
